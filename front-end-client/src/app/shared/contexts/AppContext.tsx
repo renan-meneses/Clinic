@@ -1,6 +1,7 @@
 import { ReactNode, createContext, useEffect, useState } from "react";
 import { api } from "../api/api";
 import { destroyCookie, parseCookies, setCookie } from "nookies";
+import React  from 'react';
 
 type Usuario = {
     nomeUsuario:string,

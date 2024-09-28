@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Dashboard, Login,Marcacao,Cadastros } from "../pages";
 import { TelaUsuarioLogado,TelaUsuarioNaoLogado } from "../shared/hooks/useRotas";
+import React  from 'react';
 
 const router = createBrowserRouter([
     {

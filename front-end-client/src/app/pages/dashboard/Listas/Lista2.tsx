@@ -5,7 +5,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { List } from '@mui/material';
 import { useContext } from 'react';
 import { AppContext } from '../../../shared/contexts/AppContext';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 //ELEMENTS
 import { DialogConfigClinica } from '../Dialogs/DialogConfigClinica';
